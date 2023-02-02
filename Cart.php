@@ -31,7 +31,7 @@
             foreach($this->cartItems as $key => $Value){
                 $totalPrice += $Value->computeSRP();
             }
-            echo '<b>Total Cart Amount: </b> ₱ ' . number_format($totalPrice,2);
+            echo '<b>Total Cart Amount: </b> ₱ ' .   number_format($totalPrice,2);
         }
     
     }
