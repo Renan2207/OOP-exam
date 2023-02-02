@@ -33,7 +33,7 @@
             }
             echo '<b>Total Cart Amount: </b> ₱ ' . number_format($totalPrice,2);
         }
-    
+
     }
 
 ?>
